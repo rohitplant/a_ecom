@@ -1,0 +1,5 @@
+{
+    "url":"ecom.com",
+    "mysql":"mssql://root:123@",
+    "port":"3002"
+}

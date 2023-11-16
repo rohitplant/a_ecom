@@ -1,0 +1,35 @@
+
+<html>
+<head>
+  
+<%- include('../component/head',{data:{title:'product add'}}); %>
+<body>
+    <div class="container">
+        <div class="container">
+            <div class="offset-sm-3 col-6 rounded p-4" style="background-color: #141d36;">
+                <form action="/product/create" method="post">
+                    <h2 class="text-center mb-4" style="color: #16f812;">Add Product</h2>
+                    <div class="mb-3">
+                        <label class="form-label" style="color: #15ff00; font-weight: bold;">Name</label>
+                        <input type="text" name="username" class="form-control" placeholder="Product Name" style="border-color: #54e346; color: #54e346;">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label class="form-label" style="color: #54e346; font-weight: bold;">Price</label>
+                        <input type="text" name="rupees" class="form-control" placeholder="Product Price" style="border-color: #54e346; color: #54e346;">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label class="form-label" style="color: #54e346; font-weight: bold;">Description</label>
+                        <input type="text" name="describe" class="form-control" placeholder="Product Description" style="border-color: #54e346; color: #54e346;">
+                    </div>
+        
+                    <button type="submit" class="btn btn-primary btn-block" style="background-color: #54e346; border-color: #54e346; color: #141d36; transition: all 0.1s;">Add Product</button>
+                </form>
+            </div>
+        </div>
+        
+
+<%- include("../component/footer")%>
+</body>
+</html>

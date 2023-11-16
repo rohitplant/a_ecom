@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="/js/jqueryPages.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="col6">
+        <div class="col12" id="first-div">
+            <form action="register" method="post">
+                userName <input type="Text" name="userName" required>
+                email <input type="email" name="email" required>
+                phone <input type="text" name="phone" required>
+                password <input type="password" name="password" required>
+                <input type="submit">
+            </form>
+        </div>
+
+        <div class="col12" id="second-div">
+            <form action="login" method="post">
+                abc:<input type="email" name="email"><br><br>
+                pqr:<input type="password" name="password"><br><br>
+                
+                <input type="submit">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="col12">
+        <button id="f">
+            first
+        </button>
+        <button id="s">
+            second
+        </button>
+    </div>
+</body>
+
+</html>
